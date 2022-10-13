@@ -1,0 +1,31 @@
+{
+  "jhipsterApp": {
+    "idea": {
+      "home": {
+        "title": "Ideas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Idea",
+        "createOrEditLabel": "Crear o editar Idea",
+        "notFound": "Ningún Ideas encontrado"
+      },
+      "created": "Un nuevo Idea ha sido creado con el identificador {{ param }}",
+      "updated": "Un Idea ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Idea ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Idea {{ id }}?"
+      },
+      "detail": {
+        "title": "Idea"
+      },
+      "id": "ID",
+      "numeroRegistro": "Numero Registro",
+      "entidad": "Entidad",
+      "titulo": "Titulo",
+      "descripcion": "Descripcion",
+      "autor": "Autor",
+      "fechaIncripcion": "Fecha Incripcion",
+      "tipoIdea": "Tipo Idea",
+      "reto": "Reto"
+    }
+  }
+}

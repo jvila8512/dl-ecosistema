@@ -1,0 +1,61 @@
+{
+  "applications": "*",
+  "changelogDate": "20221013002042",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "idea",
+  "fields": [
+    {
+      "fieldName": "numeroRegistro",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "entidad",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "titulo",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "descripcion",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "autor",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "fechaIncripcion",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Idea",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "tipoIdea",
+      "otherEntityName": "tipoIdea",
+      "otherEntityRelationshipName": "idea",
+      "ownerSide": true,
+      "relationshipName": "tipoIdea",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityField": "reto",
+      "otherEntityName": "reto",
+      "otherEntityRelationshipName": "idea",
+      "relationshipName": "reto",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

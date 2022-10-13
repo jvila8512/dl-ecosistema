@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20221013002041",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "tipo_idea",
+  "fields": [
+    {
+      "fieldName": "tipoIdea",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "TipoIdea",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "idea",
+      "otherEntityRelationshipName": "tipoIdea",
+      "ownerSide": false,
+      "relationshipName": "idea",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

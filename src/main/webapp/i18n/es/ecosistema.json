@@ -1,0 +1,26 @@
+{
+  "jhipsterApp": {
+    "ecosistema": {
+      "home": {
+        "title": "Ecosistemas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Ecosistema",
+        "createOrEditLabel": "Crear o editar Ecosistema",
+        "notFound": "Ningún Ecosistemas encontrado"
+      },
+      "created": "Un nuevo Ecosistema ha sido creado con el identificador {{ param }}",
+      "updated": "Un Ecosistema ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Ecosistema ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Ecosistema {{ id }}?"
+      },
+      "detail": {
+        "title": "Ecosistema"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "usurioecosistema": "Usurioecosistema",
+      "reto": "Reto"
+    }
+  }
+}

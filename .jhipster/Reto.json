@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20221013002043",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "reto",
+  "fields": [
+    {
+      "fieldName": "reto",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "descripcion",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Reto",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "idea",
+      "otherEntityRelationshipName": "reto",
+      "relationshipName": "idea",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "ecosistema",
+      "otherEntityRelationshipName": "reto",
+      "relationshipName": "ecosistema",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

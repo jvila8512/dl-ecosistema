@@ -1,0 +1,27 @@
+{
+  "jhipsterApp": {
+    "reto": {
+      "home": {
+        "title": "Retos",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Reto",
+        "createOrEditLabel": "Crear o editar Reto",
+        "notFound": "Ningún Retos encontrado"
+      },
+      "created": "Un nuevo Reto ha sido creado con el identificador {{ param }}",
+      "updated": "Un Reto ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Reto ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Reto {{ id }}?"
+      },
+      "detail": {
+        "title": "Reto"
+      },
+      "id": "ID",
+      "reto": "Reto",
+      "descripcion": "Descripcion",
+      "idea": "Idea",
+      "ecosistema": "Ecosistema"
+    }
+  }
+}

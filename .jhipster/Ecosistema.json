@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20221013002044",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "ecosistema",
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Ecosistema",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "usuarioEcosistema",
+      "otherEntityRelationshipName": "ecosistema",
+      "relationshipName": "usurioecosistema",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "reto",
+      "otherEntityRelationshipName": "ecosistema",
+      "relationshipName": "reto",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

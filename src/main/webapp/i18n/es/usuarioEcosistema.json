@@ -1,0 +1,26 @@
+{
+  "jhipsterApp": {
+    "usuarioEcosistema": {
+      "home": {
+        "title": "Usuario Ecosistemas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Usuario Ecosistema",
+        "createOrEditLabel": "Crear o editar Usuario Ecosistema",
+        "notFound": "Ningún Usuario Ecosistemas encontrado"
+      },
+      "created": "Un nuevo Usuario Ecosistema ha sido creado con el identificador {{ param }}",
+      "updated": "Un Usuario Ecosistema ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Usuario Ecosistema ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Usuario Ecosistema {{ id }}?"
+      },
+      "detail": {
+        "title": "Usuario Ecosistema"
+      },
+      "id": "ID",
+      "nombre": "Nombre",
+      "user": "User",
+      "ecosistema": "Ecosistema"
+    }
+  }
+}
